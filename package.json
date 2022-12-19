@@ -1,0 +1,40 @@
+{
+  "name": "create-vkui-app",
+  "version": "0.1.0",
+  "description": "Basic VKUI template app",
+  "bin": {
+    "create-vkui-app": "./dist/index.js"
+  },
+  "type": "module",
+  "repository": "https://github.com/VKCOM/create-vkui-app",
+  "scripts": {
+    "prepublishOnly": "yarn build",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "create": "node ./dist/index.js",
+    "typecheck": "tsc --incremental --tsBuildInfoFile .cache/.tsbuildinfo --outDir .cache/ts"
+  },
+  "engines": {
+    "node": ">=14.6.0"
+  },
+  "keywords": [
+    "vkui",
+    "react",
+    "template"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.11.11",
+    "@types/prompts": "^2.4.2",
+    "tsup": "^6.5.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "chalk": "5.0.0",
+    "commander": "^9.4.1",
+    "cpy": "9.0.0",
+    "fs-extra": "^11.1.0",
+    "prompts": "^2.4.2"
+  }
+}
