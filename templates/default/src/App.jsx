@@ -30,7 +30,9 @@ function Main() {
             <PanelHeader>VKUI</PanelHeader>
             <Group>
               <Div className={styles.app}>
-                <img src={vkuiLogo} alt="vkui logo" height={100} />
+                <Link href="https://vkcom.github.io/VKUI" target="_blank">
+                  <img src={vkuiLogo} alt="vkui logo" height={100} />
+                </Link>
               </Div>
               <SimpleCell onClick={() => setActivePanel('account')} before={<Icon28UserOutline />}>
                 Account

@@ -8,6 +8,8 @@ export function copyTemplate(projectPath: string, flags: ICliOptions) {
   const packageRoot = getPackageRoot();
   logger.info("📝 Copying VKUI App source and configuration files...");
 
+  fs.copySync(path.join(packageRoot, `templates/common`), projectPath);
+
   fs.copySync(
     path.join(
       packageRoot,
@@ -17,7 +19,7 @@ export function copyTemplate(projectPath: string, flags: ICliOptions) {
   );
 
   fs.renameSync(
-    path.join(projectPath, "gitignore"),
+    path.join(projectPath, "gitignore_template"),
     path.join(projectPath, ".gitignore")
   );
 
