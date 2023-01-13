@@ -1,6 +1,6 @@
 {
   "name": "@vkontakte/create-vkui-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Basic VKUI template app",
   "bin": {
     "create-vkui-app": "./dist/index.js"
