@@ -33,7 +33,7 @@
   "dependencies": {
     "chalk": "5.2.0",
     "commander": "^10.0.0",
-    "cpy": "9.0.1",
+    "cpy": "10.0.0",
     "fs-extra": "^11.1.0",
     "prompts": "^2.4.2"
   }
