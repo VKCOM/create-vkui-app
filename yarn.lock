@@ -156,9 +156,9 @@
     undici-types "~5.25.1"
 
 "@types/prompts@^2.4.2":
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/@types/prompts/-/prompts-2.4.6.tgz#5c14794e7c8850b1d633a17a052b724bd2b019a3"
-  integrity sha512-hIwnDhvsTV6XwAPo1zNy2MTelR0JmCxklIRsVxwROHLGaf6LfB+sGDkB9n+aqV4gXDz8z5MnlAz4CEC9wQDRsw==
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/@types/prompts/-/prompts-2.4.7.tgz#d9f2e53b00639721eddc949289843cef4fb1679b"
+  integrity sha512-5zTamE+QQM4nR6Ab3yHK+ovWuhLJXaa2ZLt3mT1en8U3ubWtjVT1vXDaVFC2+cL89uVn7Y+gIq5B3IcVvBl5xQ==
   dependencies:
     "@types/node" "*"
     kleur "^3.0.3"
