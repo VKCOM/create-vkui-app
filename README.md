@@ -1,3 +1,9 @@
+# Deprecated
+
+> **Warning**
+>
+> Please use https://github.com/VKCOM/create-vk-mini-app.
+
 # Create VKUI App
 
 ## How to use
